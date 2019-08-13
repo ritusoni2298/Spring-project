@@ -1,0 +1,10 @@
+package com.coding.springDemo.services;
+
+import java.util.List;
+
+import com.coding.springDemo.entity.Customer;
+
+public interface CustomerServiceInterface {
+	
+	public List<Customer> getCustomers();
+}

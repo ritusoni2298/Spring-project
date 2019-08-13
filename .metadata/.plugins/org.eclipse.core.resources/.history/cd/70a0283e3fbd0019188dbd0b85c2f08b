@@ -1,0 +1,46 @@
+package com.coding.springDemo.services;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.coding.springDemo.entity.Customer;
+
+@Service
+public class CustomerServices implements CustomerServiceInterface{
+	
+	@Autowired
+	private SessionFactory sessionfactory;
+	
+	@Transactional
+	public List<Customer> getCustomers() {
+
+		Session session=sessionfactory.getCurrentSession();
+		
+		Query<Customer> theQuery =session.createQuery("from Customer", Customer.class);
+		
+		
+		//create query
+		List<Customer> temp = theQuery.getResultList();
+		
+		//save the session
+		//return list
+		return temp;
+		
+		/*
+		Session session= sessionFactory.getCurrentSession();
+		
+		Query
+		
+		List<Customer> ls= session.createQuery("from Customer").getResultList();
+		
+		return ls;
+	*/}
+	
+}

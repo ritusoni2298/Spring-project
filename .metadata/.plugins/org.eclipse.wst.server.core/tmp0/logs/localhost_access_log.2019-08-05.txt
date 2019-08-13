@@ -1,0 +1,10 @@
+127.0.0.1 - - [05/Aug/2019:18:18:54 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [05/Aug/2019:18:18:55 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 243
+127.0.0.1 - - [05/Aug/2019:18:19:03 +0530] "GET /spring-mvc-demo/std/showForm HTTP/1.1" 500 4868
+127.0.0.1 - - [05/Aug/2019:18:19:30 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 243
+127.0.0.1 - - [05/Aug/2019:18:19:32 +0530] "GET /spring-mvc-demo/std/showForm HTTP/1.1" 500 4868
+127.0.0.1 - - [05/Aug/2019:19:14:14 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [05/Aug/2019:19:14:15 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 243
+127.0.0.1 - - [05/Aug/2019:19:14:17 +0530] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 316
+127.0.0.1 - - [05/Aug/2019:19:14:21 +0530] "GET /spring-mvc-demo/std/showForm HTTP/1.1" 200 2290
+127.0.0.1 - - [05/Aug/2019:19:14:46 +0530] "POST /spring-mvc-demo/std/processForm HTTP/1.1" 200 455
