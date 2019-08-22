@@ -1,8 +1,0 @@
-package com.coding.springDemo.entity;
-
-import java.util.List;
-
-public interface CutomerDAO {
-	
-	public List<Customer> getCustomers(); 
-}

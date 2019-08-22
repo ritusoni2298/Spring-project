@@ -1,5 +1,0 @@
-package com.coding.springDemo.entity;
-
-public interface CustomerDAO {
-
-}

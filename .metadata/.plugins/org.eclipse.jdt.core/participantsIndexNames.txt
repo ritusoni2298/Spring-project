@@ -1,5 +1,11 @@
 INDEX VERSION 1.131
-/home/consultad/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3246518651.index
-/spring-mvc-demo/src
 /home/consultad/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3750454120.index
 /web-customer-tracker/src
+/home/consultad/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/835683207.index
+/restdemo/src/main/resources
+/home/consultad/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1576400366.index
+/rest.demo/src/main/resources
+/home/consultad/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3246518651.index
+/spring-mvc-demo/src
+/home/consultad/eclipse-workspace1/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/19987796.index
+/restdemoo/src/main/resources

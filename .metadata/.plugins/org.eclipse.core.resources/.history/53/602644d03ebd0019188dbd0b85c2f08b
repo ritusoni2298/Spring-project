@@ -1,5 +1,0 @@
-package com.coding.springDemo.services;
-
-public interface CustomerServiceInterface {
-
-}

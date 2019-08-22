@@ -1,8 +1,0 @@
-package com.coding.springDemo.entity;
-
-import org.springframework.stereotype.Repository;
-
-@Repository 
-public class CustomerDAOImpl implements CustomerDAO {
-
-}
